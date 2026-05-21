@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="967" viewBox="0 0 1920 967">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#151528"/>
+      <stop offset="42%" stop-color="#3b1830"/>
+      <stop offset="75%" stop-color="#8b2418"/>
+      <stop offset="100%" stop-color="#130c14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="45%">
+      <stop offset="0%" stop-color="#ff5a1f" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#731919" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="redglow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1920" height="967" fill="url(#sky)"/>
+  <rect width="1920" height="967" fill="url(#glow)"/>
+  <g opacity="0.55" fill="#0a0a12">
+    <path d="M0 965 L0 150 L95 530 L170 210 L240 625 L330 260 L420 690 L520 300 L610 710 L710 260 L800 730 L900 310 L1000 735 L1100 295 L1195 710 L1300 255 L1410 705 L1525 250 L1620 650 L1720 190 L1840 585 L1920 120 L1920 967 Z"/>
+    <path d="M0 965 L0 760 C160 690 310 725 450 700 C620 670 760 720 950 690 C1150 655 1300 720 1485 685 C1660 655 1805 700 1920 660 L1920 967 Z"/>
+  </g>
+  <g opacity="0.8" fill="#111018">
+    <path d="M90 967 L140 570 L190 967 Z"/>
+    <path d="M210 967 L285 430 L350 967 Z"/>
+    <path d="M1550 967 L1600 420 L1670 967 Z"/>
+    <path d="M1710 967 L1790 350 L1870 967 Z"/>
+  </g>
+  <text x="960" y="120" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="92" fill="#f4f1ea" stroke="#20141b" stroke-width="8" paint-order="stroke" letter-spacing="8">ZOMBIE ATTACK</text>
+  <g filter="url(#shadow)" fill="#09080b" stroke="#2b1515" stroke-width="4">
+    <ellipse cx="960" cy="455" rx="118" ry="182"/>
+    <circle cx="960" cy="250" r="78"/>
+    <path d="M880 350 C740 390 655 515 620 720 L690 735 C720 570 790 475 910 445 Z"/>
+    <path d="M1030 335 C1170 285 1300 235 1440 180 L1470 240 C1340 310 1210 400 1075 460 Z"/>
+    <path d="M870 610 L770 950 L880 950 L965 665 Z"/>
+    <path d="M1038 610 L1135 950 L1248 950 L1045 660 Z"/>
+    <path d="M1430 160 L1508 105 L1520 137 L1475 185 L1555 178 L1550 215 L1475 222 L1540 270 L1502 295 L1440 235 Z"/>
+  </g>
+  <g fill="#ff331f" filter="url(#redglow)">
+    <circle cx="932" cy="242" r="13"/>
+    <circle cx="987" cy="242" r="13"/>
+    <circle cx="470" cy="430" r="10"/>
+    <circle cx="510" cy="430" r="10"/>
+    <circle cx="1370" cy="520" r="10"/>
+    <circle cx="1408" cy="520" r="10"/>
+    <circle cx="1165" cy="610" r="7"/>
+    <circle cx="1210" cy="610" r="7"/>
+  </g>
+  <g filter="url(#shadow)" fill="#07070a" opacity="0.95">
+    <ellipse cx="490" cy="610" rx="78" ry="145"/>
+    <circle cx="490" cy="450" r="53"/>
+    <path d="M435 555 L330 765 L385 780 L470 620 Z"/>
+    <path d="M540 560 L650 740 L600 760 L505 625 Z"/>
+    <ellipse cx="1390" cy="675" rx="90" ry="150"/>
+    <circle cx="1390" cy="520" r="55"/>
+    <path d="M1325 620 L1210 770 L1265 795 L1365 675 Z"/>
+    <path d="M1445 630 L1570 760 L1520 790 L1405 690 Z"/>
+    <ellipse cx="1190" cy="735" rx="52" ry="105"/>
+    <circle cx="1190" cy="610" r="38"/>
+  </g>
+  <g opacity="0.35" fill="#1b0f12">
+    <circle cx="300" cy="270" r="2"/><circle cx="600" cy="250" r="3"/><circle cx="730" cy="310" r="2"/><circle cx="1510" cy="270" r="2"/><circle cx="1650" cy="230" r="3"/><circle cx="1290" cy="195" r="2"/>
+  </g>
+  <rect x="0" y="0" width="1920" height="967" fill="none" stroke="#10090f" stroke-width="28" opacity="0.9"/>
+</svg>
