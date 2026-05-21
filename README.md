@@ -1,7 +1,7 @@
 # Zombie Attack - iGraphics Game
 
 <p align="center">
-  <img src="assets/zombie-banner.svg" alt="Zombie Attack banner" width="100%" />
+  <img src="assets/zombie.png" alt="Zombie Attack banner" width="100%" />
 </p>
 
 A 2D zombie shooting game built with **C/C++** and the **iGraphics** graphics library. The game includes animated zombies, player movement, shooting mechanics, health tracking, scoring, sound effects, menu screens, and a simple high-score system.
